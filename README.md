@@ -27,8 +27,12 @@ Voting simulator programs written in C. The applications can be used to simulate
 The application can be ran locally or using the [![CS50 Badge](https://img.shields.io/badge/-CS50-red)](https://cs50.harvard.edu) <a href="https://ide.cs50.io">IDE</a> after logging in with your GitHub account.
 
 To run the program:
- 1. It needs to be complied: `$ make plurality.c / $ make runoff.c`
- 2. Started with the names of the candidates as arguments: `$ ./plurality candidates names / $ ./runoff candidates names `
+ 1. It needs to be complied: 
+  * `$ make plurality.c`
+  * `$ make runoff.c`
+ 2. Started with the names of the candidates as arguments: 
+  * `$ ./plurality candidates names`
+  * `$ ./runoff candidates names`
  3. Enter number of voters and vote: 
     * `Plurality: Number of voters: 3 - Vote: Candidate`
     * `Runoff: Number of voters: 5 - Rank 1: Candidate1  Rank 2: Candidate2 Rank 3: Candidate3`
