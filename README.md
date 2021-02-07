@@ -11,8 +11,8 @@ Table of content
 
 ### General info
 
-Voting simulator programs written in C. The applications can be used to simulate two different voting system:
- * Plurality: In this versions voters can only vote to one candidate and the candidate with the most votes wins the election. If multiple candidates received the highest amount of votes the election ends in a tie.
+Voting simulator programs written in C. The applications can be used to simulate two different voting systems:
+ * Plurality: In this version voters can only vote for one candidate and the candidate with the most votes wins the election. If multiple candidates received the highest amount of votes the election ends in a tie.
  * Runoff: This program simulates a ranked-choice voting system:
     * Each voter can vote for 3 candidates
     * If one of the candidates have at least 50% of the votes the candidate wins the election
@@ -24,10 +24,10 @@ Voting simulator programs written in C. The applications can be used to simulate
 
 ### Setup
 
-The application can be ran locally or using the [![CS50 Badge](https://img.shields.io/badge/-CS50-red)](https://cs50.harvard.edu) <a href="https://ide.cs50.io">IDE</a> after logging in with your GitHub account.
+The application can be run locally or using the [![CS50 Badge](https://img.shields.io/badge/-CS50-red)](https://cs50.harvard.edu) <a href="https://ide.cs50.io">IDE</a> after logging in with your GitHub account.
 
 To run the program:
- 1. It needs to be complied: 
+ 1. It needs to be compiled: 
   * `$ make plurality.c`
   * `$ make runoff.c`
  2. Started with the names of the candidates as arguments: 
